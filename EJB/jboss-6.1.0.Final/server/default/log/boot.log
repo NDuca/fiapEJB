@@ -1,0 +1,209 @@
+21:01:23,521 INFO  [AbstractJBossASServerBase] Server Configuration:
+
+	JBOSS_HOME URL: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/
+	Bootstrap: $JBOSS_HOME\server/default/conf/bootstrap.xml
+	Common Base: $JBOSS_HOME\common/
+	Common Library: $JBOSS_HOME\common/lib/
+	Server Name: default
+	Server Base: $JBOSS_HOME\server/
+	Server Library: $JBOSS_HOME\server/default/lib/
+	Server Config: $JBOSS_HOME\server/default/conf/
+	Server Home: $JBOSS_HOME\server/default/
+	Server Data: $JBOSS_HOME\server/default/data/
+	Server Log: $JBOSS_HOME\server/default/log/
+	Server Temp: $JBOSS_HOME\server/default/tmp/
+
+21:01:23,521 INFO  [AbstractServer] Starting: JBossAS [6.1.0.Final "Neo"]
+21:01:24,146 INFO  [ServerInfo] Java version: 1.8.0_121,Oracle Corporation
+21:01:24,146 INFO  [ServerInfo] Java Runtime: Java(TM) SE Runtime Environment (build 1.8.0_121-b13)
+21:01:24,146 INFO  [ServerInfo] Java VM: Java HotSpot(TM) 64-Bit Server VM 25.121-b13,Oracle Corporation
+21:01:24,147 INFO  [ServerInfo] OS-System: Windows 10 10.0,amd64
+21:01:24,147 INFO  [ServerInfo] VM arguments: -Dprogram.name=JBossTools: JBoss AS 6.x at localhost -Djava.awt.headless=true -Xms256m -Xmx768m -XX:MaxPermSize=256m -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djava.endorsed.dirs=C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\lib\endorsed -Djava.library.path=C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/bin/native -Dlogging.configuration=file:C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\bin\logging.properties -Dfile.encoding=Cp1252 
+21:01:24,147 DEBUG [ServerInfo] Full System Properties Dump
+21:01:24,147 DEBUG [ServerInfo]     awt.toolkit: sun.awt.windows.WToolkit
+21:01:24,147 DEBUG [ServerInfo]     bind.address: localhost
+21:01:24,147 DEBUG [ServerInfo]     file.encoding: Cp1252
+21:01:24,147 DEBUG [ServerInfo]     file.encoding.pkg: sun.io
+21:01:24,147 DEBUG [ServerInfo]     file.separator: \
+21:01:24,148 DEBUG [ServerInfo]     java.awt.graphicsenv: sun.awt.Win32GraphicsEnvironment
+21:01:24,148 DEBUG [ServerInfo]     java.awt.headless: true
+21:01:24,148 DEBUG [ServerInfo]     java.awt.printerjob: sun.awt.windows.WPrinterJob
+21:01:24,148 DEBUG [ServerInfo]     java.class.path: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\bin\run.jar
+21:01:24,148 DEBUG [ServerInfo]     java.class.version: 52.0
+21:01:24,148 DEBUG [ServerInfo]     java.endorsed.dirs: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\lib\endorsed
+21:01:24,148 DEBUG [ServerInfo]     java.ext.dirs: C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\Windows\Sun\Java\lib\ext
+21:01:24,148 DEBUG [ServerInfo]     java.home: C:\Program Files\Java\jre1.8.0_121
+21:01:24,148 DEBUG [ServerInfo]     java.io.tmpdir: C:\Users\natha\AppData\Local\Temp\
+21:01:24,148 DEBUG [ServerInfo]     java.library.path: C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/bin/native
+21:01:24,148 DEBUG [ServerInfo]     java.protocol.handler.pkgs: org.jboss.net.protocol|org.jboss.vfs.protocol
+21:01:24,148 DEBUG [ServerInfo]     java.rmi.server.RMIClassLoaderSpi: org.jboss.system.JBossRMIClassLoader
+21:01:24,148 DEBUG [ServerInfo]     java.rmi.server.hostname: localhost
+21:01:24,149 DEBUG [ServerInfo]     java.runtime.name: Java(TM) SE Runtime Environment
+21:01:24,149 DEBUG [ServerInfo]     java.runtime.version: 1.8.0_121-b13
+21:01:24,149 DEBUG [ServerInfo]     java.specification.name: Java Platform API Specification
+21:01:24,149 DEBUG [ServerInfo]     java.specification.vendor: Oracle Corporation
+21:01:24,149 DEBUG [ServerInfo]     java.specification.version: 1.8
+21:01:24,149 DEBUG [ServerInfo]     java.util.logging.manager: org.jboss.logmanager.LogManager
+21:01:24,149 DEBUG [ServerInfo]     java.vendor: Oracle Corporation
+21:01:24,149 DEBUG [ServerInfo]     java.vendor.url: http://java.oracle.com/
+21:01:24,149 DEBUG [ServerInfo]     java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+21:01:24,149 DEBUG [ServerInfo]     java.version: 1.8.0_121
+21:01:24,149 DEBUG [ServerInfo]     java.vm.info: mixed mode
+21:01:24,149 DEBUG [ServerInfo]     java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+21:01:24,149 DEBUG [ServerInfo]     java.vm.specification.name: Java Virtual Machine Specification
+21:01:24,150 DEBUG [ServerInfo]     java.vm.specification.vendor: Oracle Corporation
+21:01:24,150 DEBUG [ServerInfo]     java.vm.specification.version: 1.8
+21:01:24,150 DEBUG [ServerInfo]     java.vm.vendor: Oracle Corporation
+21:01:24,150 DEBUG [ServerInfo]     java.vm.version: 25.121-b13
+21:01:24,150 DEBUG [ServerInfo]     javax.management.builder.initial: org.jboss.mx.server.MBeanServerBuilderImpl
+21:01:24,150 DEBUG [ServerInfo]     jboss.bind.address: localhost
+21:01:24,150 DEBUG [ServerInfo]     jboss.boot.server.log.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\log
+21:01:24,150 DEBUG [ServerInfo]     jboss.bootstrap.home.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/conf/
+21:01:24,150 DEBUG [ServerInfo]     jboss.bootstrap.name: bootstrap.xml
+21:01:24,150 DEBUG [ServerInfo]     jboss.bootstrap.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/conf/bootstrap.xml
+21:01:24,150 DEBUG [ServerInfo]     jboss.common.base.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/common/
+21:01:24,150 DEBUG [ServerInfo]     jboss.common.lib.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/common/lib/
+21:01:24,150 DEBUG [ServerInfo]     jboss.home: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final
+21:01:24,151 DEBUG [ServerInfo]     jboss.home.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final
+21:01:24,151 DEBUG [ServerInfo]     jboss.home.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/
+21:01:24,151 DEBUG [ServerInfo]     jboss.host.name: nathan-duca
+21:01:24,151 DEBUG [ServerInfo]     jboss.lib.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/lib/
+21:01:24,151 DEBUG [ServerInfo]     jboss.native.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\tmp\native
+21:01:24,151 DEBUG [ServerInfo]     jboss.native.load: false
+21:01:24,151 DEBUG [ServerInfo]     jboss.node.name: nathan-duca
+21:01:24,151 DEBUG [ServerInfo]     jboss.partition.name: DefaultPartition
+21:01:24,151 DEBUG [ServerInfo]     jboss.platform.mbeanserver: true
+21:01:24,151 DEBUG [ServerInfo]     jboss.qualified.host.name: nathan-duca
+21:01:24,151 DEBUG [ServerInfo]     jboss.server.base.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server
+21:01:24,151 DEBUG [ServerInfo]     jboss.server.base.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/
+21:01:24,151 DEBUG [ServerInfo]     jboss.server.config.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/conf/
+21:01:24,151 DEBUG [ServerInfo]     jboss.server.data.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\data
+21:01:24,152 DEBUG [ServerInfo]     jboss.server.home.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default
+21:01:24,152 DEBUG [ServerInfo]     jboss.server.home.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/
+21:01:24,152 DEBUG [ServerInfo]     jboss.server.lib.url: file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/lib/
+21:01:24,154 DEBUG [ServerInfo]     jboss.server.log.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\log
+21:01:24,154 DEBUG [ServerInfo]     jboss.server.name: default
+21:01:24,154 DEBUG [ServerInfo]     jboss.server.temp.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\tmp
+21:01:24,155 DEBUG [ServerInfo]     jboss.vfs.forceCopy: true
+21:01:24,155 DEBUG [ServerInfo]     jbossmx.loader.repository.class: org.jboss.mx.loading.UnifiedLoaderRepository3
+21:01:24,155 DEBUG [ServerInfo]     jgroups.bind_addr: localhost
+21:01:24,155 DEBUG [ServerInfo]     line.separator: 
+
+21:01:24,155 DEBUG [ServerInfo]     log4j.defaultInitOverride: true
+21:01:24,155 DEBUG [ServerInfo]     logging.configuration: file:C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\bin\logging.properties
+21:01:24,155 DEBUG [ServerInfo]     org.jboss.deployers.spi.deployer.matchers.NameIgnoreMechanism: org.jboss.deployers.spi.deployer.helpers.DummyNameIgnoreMechanism
+21:01:24,155 DEBUG [ServerInfo]     org.jboss.logging.Logger.pluginClass: org.jboss.logging.logmanager.LoggerPluginImpl
+21:01:24,155 DEBUG [ServerInfo]     org.jboss.reflect.spi.TypeInfoFactory: org.jboss.reflect.plugins.introspection.IntrospectionTypeInfoFactory
+21:01:24,155 DEBUG [ServerInfo]     os.arch: amd64
+21:01:24,155 DEBUG [ServerInfo]     os.name: Windows 10
+21:01:24,155 DEBUG [ServerInfo]     os.version: 10.0
+21:01:24,155 DEBUG [ServerInfo]     path.separator: ;
+21:01:24,156 DEBUG [ServerInfo]     program.name: JBossTools: JBoss AS 6.x at localhost
+21:01:24,156 DEBUG [ServerInfo]     sun.arch.data.model: 64
+21:01:24,156 DEBUG [ServerInfo]     sun.boot.class.path: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\lib\endorsed\activation.jar;C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\lib\endorsed\jboss-annotations-api_1.1_spec.jar;C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\lib\endorsed\jboss-jaxb-api_2.2_spec.jar;C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\lib\endorsed\jboss-jaxws-api_2.2_spec.jar;C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\lib\endorsed\jbossws-cxf-factories.jar;C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\lib\endorsed\stax-api.jar;C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes
+21:01:24,156 DEBUG [ServerInfo]     sun.boot.library.path: C:\Program Files\Java\jre1.8.0_121\bin
+21:01:24,156 DEBUG [ServerInfo]     sun.cpu.endian: little
+21:01:24,156 DEBUG [ServerInfo]     sun.cpu.isalist: amd64
+21:01:24,156 DEBUG [ServerInfo]     sun.desktop: windows
+21:01:24,156 DEBUG [ServerInfo]     sun.io.unicode.encoding: UnicodeLittle
+21:01:24,156 DEBUG [ServerInfo]     sun.java.command: org.jboss.Main --configuration=default --host=localhost -Djboss.server.base.url=file:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/
+21:01:24,156 DEBUG [ServerInfo]     sun.java.launcher: SUN_STANDARD
+21:01:24,156 DEBUG [ServerInfo]     sun.jnu.encoding: Cp1252
+21:01:24,156 DEBUG [ServerInfo]     sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+21:01:24,156 DEBUG [ServerInfo]     sun.os.patch.level: 
+21:01:24,156 DEBUG [ServerInfo]     sun.rmi.dgc.client.gcInterval: 3600000
+21:01:24,157 DEBUG [ServerInfo]     sun.rmi.dgc.server.gcInterval: 3600000
+21:01:24,157 DEBUG [ServerInfo]     user.country: BR
+21:01:24,157 DEBUG [ServerInfo]     user.dir: C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\bin
+21:01:24,157 DEBUG [ServerInfo]     user.home: C:\Users\natha
+21:01:24,157 DEBUG [ServerInfo]     user.language: pt
+21:01:24,157 DEBUG [ServerInfo]     user.name: natha
+21:01:24,157 DEBUG [ServerInfo]     user.script: 
+21:01:24,157 DEBUG [ServerInfo]     user.timezone: America/Sao_Paulo
+21:01:24,157 DEBUG [ServerInfo]     user.variant: 
+21:01:24,157 DEBUG [ServerInfo]     xb.builder.repeatableParticleHandlers: false
+21:01:24,157 DEBUG [ServerInfo]     xb.builder.useUnorderedSequence: true
+21:01:24,168 INFO  [JMXKernel] Legacy JMX core initialized
+21:01:33,541 INFO  [AbstractServerConfig] JBoss Web Services - Stack CXF Server 3.4.1.GA
+21:01:33,712 INFO  [JSFImplManagementDeployer] Initialized 3 JSF configurations: [Mojarra-1.2, MyFaces-2.0, Mojarra-2.0]
+21:01:37,649 ADVERTÊNCIA [FileConfigurationParser] AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+21:01:37,719 INFO  [JMXConnector] starting JMXConnector on host localhost:1090
+21:01:37,770 INFO  [MailService] Mail Service bound to java:/Mail
+21:01:38,091 INFORMAÇÕES [HornetQServerImpl] live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\data/hornetq/journal,bindingsDirectory=C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\data/hornetq/bindings,largeMessagesDirectory=C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\data/hornetq/largemessages,pagingDirectory=C:\Nathan\Backup\Fiap\Trabalhos\EJB\jboss-6.1.0.Final\server\default\data/hornetq/paging)
+21:01:38,092 INFORMAÇÕES [HornetQServerImpl] Waiting to obtain live lock
+21:01:38,128 INFO  [JournalStorageManager] Using NIO Journal
+21:01:38,139 ADVERTÊNCIA [HornetQServerImpl] Security risk! It has been detected that the cluster admin user and password have not been changed from the installation default. Please see the HornetQ user guide, cluster chapter, for instructions on how to do this.
+21:01:38,208 INFO  [FileLockNodeManager] Waiting to obtain live lock
+21:01:38,208 INFO  [FileLockNodeManager] Live Server Obtained live lock
+21:01:38,739 INFO  [NettyAcceptor] Started Netty Acceptor version 3.2.3.Final-r${buildNumber} localhost:5445 for CORE protocol
+21:01:38,742 INFO  [NettyAcceptor] Started Netty Acceptor version 3.2.3.Final-r${buildNumber} localhost:5455 for CORE protocol
+21:01:38,742 INFORMAÇÕES [HornetQServerImpl] Server is now live
+21:01:38,743 INFORMAÇÕES [HornetQServerImpl] HornetQ Server version 2.2.5.Final (HQ_2_2_5_FINAL_AS7, 121) [b9b20612-7b51-11e9-bdc8-0005165c30cd] started
+21:01:38,759 INFO  [WebService] Using RMI server codebase: http://localhost:8083/
+21:01:38,845 INFO  [jbossatx] ARJUNA-32010 JBossTS Recovery Service (tag: JBOSSTS_4_14_0_Final) - JBoss Inc.
+21:01:38,849 INFO  [arjuna] ARJUNA-12324 Start RecoveryActivators
+21:01:38,861 INFO  [arjuna] ARJUNA-12296 ExpiredEntryMonitor running at Seg, 20 mai 2019 21:01:38
+21:01:38,893 INFO  [arjuna] ARJUNA-12310 Recovery manager listening on endpoint 127.0.0.1:4712
+21:01:38,894 INFO  [arjuna] ARJUNA-12344 RecoveryManagerImple is ready on port 4712
+21:01:38,894 INFO  [jbossatx] ARJUNA-32013 Starting transaction recovery manager
+21:01:38,900 INFO  [arjuna] ARJUNA-12163 Starting service com.arjuna.ats.arjuna.recovery.ActionStatusService on port 4713
+21:01:38,904 INFO  [arjuna] ARJUNA-12337 TransactionStatusManagerItem host: 127.0.0.1 port: 4713
+21:01:38,912 INFO  [arjuna] ARJUNA-12170 TransactionStatusManager started on port 4713 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+21:01:38,927 INFO  [jbossatx] ARJUNA-32017 JBossTS Transaction Service (JTA version - tag: JBOSSTS_4_14_0_Final) - JBoss Inc.
+21:01:38,947 INFO  [arjuna] ARJUNA-12202 registering bean jboss.jta:type=ObjectStore.
+21:01:39,045 INFO  [AprLifecycleListener] The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/bin/native
+21:01:39,108 INFO  [ModClusterService] Initializing mod_cluster 1.1.0.Final
+21:01:39,115 INFO  [TomcatDeployment] deploy, ctxPath=/invoker
+21:01:39,278 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+21:01:39,283 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+21:01:39,285 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+21:01:39,292 INFO  [HornetQResourceAdapter] HornetQ resource adaptor started
+21:01:39,294 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+21:01:39,299 INFO  [RARDeployment] Required license terms exist, view vfs:/C:/Nathan/Backup/Fiap/Trabalhos/EJB/jboss-6.1.0.Final/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+21:01:39,337 INFO  [SimpleThreadPool] Job execution threads will use class loader of thread: Thread-2
+21:01:39,351 INFO  [SchedulerSignalerImpl] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+21:01:39,351 INFO  [QuartzScheduler] Quartz Scheduler v.1.8.3 created.
+21:01:39,352 INFO  [RAMJobStore] RAMJobStore initialized.
+21:01:39,353 INFO  [QuartzScheduler] Scheduler meta-data: Quartz Scheduler (v1.8.3) 'JBossQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+21:01:39,353 INFO  [StdSchedulerFactory] Quartz scheduler 'JBossQuartzScheduler' initialized from an externally opened InputStream.
+21:01:39,354 INFO  [StdSchedulerFactory] Quartz scheduler version: 1.8.3
+21:01:39,354 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED started.
+21:01:39,526 INFO  [ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+21:01:39,638 INFO  [ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+21:01:39,648 INFO  [ConnectionFactoryBindingService] Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=jdbc/fiap' to JNDI name 'java:jdbc/fiap'
+21:01:39,708 INFO  [xnio] XNIO Version 2.1.0.CR2
+21:01:39,713 INFO  [nio] XNIO NIO Implementation Version 2.1.0.CR2
+21:01:40,389 INFO  [remoting] JBoss Remoting version 3.1.0.Beta2
+21:01:40,428 INFO  [TomcatDeployment] deploy, ctxPath=/
+21:01:40,438 INFORMAÇÕES [HornetQServerImpl] trying to deploy queue jms.queue.ExpiryQueue
+21:01:40,471 INFORMAÇÕES [HornetQServerImpl] trying to deploy queue jms.queue.DLQ
+21:01:40,479 INFORMAÇÕES [service] Removing bootstrap log handlers
+21:11:57,756 INFORMAÇÕES [service] Restored bootstrap log handlers
+21:11:57,756 INFO  [TomcatDeployment] undeploy, ctxPath=/
+21:11:57,787 INFO  [ConnectionFactoryBindingService] Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=jdbc/fiap' from JNDI name 'java:jdbc/fiap'
+21:11:57,803 INFO  [ConnectionFactoryBindingService] Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+21:11:57,803 INFO  [ConnectionFactoryBindingService] Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+21:11:57,957 INFO  [HypersonicDatabase] Database standalone closed clean
+21:11:57,957 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED shutting down.
+21:11:57,957 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED paused.
+21:11:57,957 INFO  [QuartzScheduler] Scheduler JBossQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+21:11:57,957 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=quartz-ra
+21:11:57,957 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=mail-ra
+21:11:57,957 INFO  [HornetQResourceAdapter] HornetQ resource adapter stopped
+21:11:57,957 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=jms-ra
+21:11:57,957 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=jboss-xa-jdbc
+21:11:57,957 WARN  [ComponentDeploymentContext] Removing name on null names: jboss.naming:application=jboss-local-jdbc
+21:11:57,957 INFO  [TomcatDeployment] undeploy, ctxPath=/invoker
+21:11:57,972 INFO  [jbossatx] ARJUNA-32018 Destroying TransactionManagerService
+21:11:57,972 INFO  [jbossatx] ARJUNA-32014 Stopping transaction recovery manager
+21:11:58,073 INFORMAÇÕES [HornetQServerImpl] HornetQ Server version 2.2.5.Final (HQ_2_2_5_FINAL_AS7, 121) [b9b20612-7b51-11e9-bdc8-0005165c30cd] stopped
+21:11:58,108 INFO  [MailService] Mail service 'java:/Mail' removed from JNDI
+21:11:58,110 INFO  [JMXConnector] JMXConnector stopped
+21:11:58,780 INFO  [AbstractServer] Stopped: JBossAS [6.1.0.Final "Neo"] in 1s:78ms
